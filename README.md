@@ -357,3 +357,20 @@ run_demo_loop(agent, stream=True)
 - Charu Jaiswal - [charuj](https://github.com/charuj)
 - Colin Jarvis - [colin-openai](https://github.com/colin-openai)
 - Katia Gil Guzman - [katia-openai](https://github.com/katia-openai)
+
+# Installation Script
+
+To set up the environment and install all dependencies in one run, you can use the provided `install.sh` script. This script will:
+
+1. Check for Python 3.10+ installation.
+2. Install necessary libraries.
+3. Set up Docker for `support_bot`.
+4. Install dependencies from `setup.cfg`.
+
+To run the script, use the following command:
+
+```shell
+./install.sh
+```
+
+This will ensure that all dependencies are installed and the environment is set up correctly.
